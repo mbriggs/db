@@ -1,6 +1,6 @@
 {
   "name": "@mbriggs/db",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "pg utility supporting @mbriggs/context",
   "main": "src/index.js",
   "types": "src/index.d.ts",
