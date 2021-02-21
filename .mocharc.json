@@ -1,0 +1,7 @@
+{
+  "extension": ["ts", "tsx"],
+  "require": ["dotenv/config", "ts-node/register", "tsconfig-paths/register"],
+  "recursive": true,
+  "exit": true,
+  "spec": ["tests"]
+}
