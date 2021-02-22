@@ -58,7 +58,7 @@ export async function run(
   log(`query executed, results: %n`, result.rowCount);
   logData(`query: %s, values: %o, results: %O`, queryText, values, result.rows);
 
-  return result.rows;
+  return result.rows || [];
 }
 
 export async function tx(
